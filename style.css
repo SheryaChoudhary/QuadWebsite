@@ -1,0 +1,49 @@
+body{
+    content-visibility: center;
+}
+.menu{
+    padding-left: 100px !important;
+}
+.pageno{
+    padding-left: 100px !important;
+    background-color: white !important;
+    font-size: 10px ;
+}
+.topicstab-nav{
+    background: #ddd;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.clearfix{
+    display: block;
+}
+.topicstab-nav a:hover, .topicstab-nav a.active {
+    background: #aaa;
+    font-weight: 700;
+    border-top: 5px solid #000;
+    margin-top: -5px;
+}
+
+.topicstab-nav a {
+    float: left;
+    padding: 10px 15px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+a, a:hover {
+    text-decoration: none !important;
+    outline: 0;
+}
+a {
+    text-decoration: none;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
